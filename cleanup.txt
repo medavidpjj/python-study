@@ -1,0 +1,5 @@
+find /data/control/web_sdk/web_sdk/Runtime/Logs/Admin -type f -mtime +10 -exec rm -fr {} \;
+
+find /data/control/web_sdk/web_sdk/Runtime/Logs/Home -type f -mtime +5 -exec rm -fr {} \;
+
+find /data/control/web_sdk/web_sdk/Runtime/Logs/Sdk -type f -mtime +10 -exec rm -fr {} \;
